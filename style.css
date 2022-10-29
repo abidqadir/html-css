@@ -1,21 +1,10 @@
-**{
-    margin: 0;
-}
-.parent
-{
+.box {
     display: flex;
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    border: 2px solid black;
-    justify-content: center;
-    align-items: center;
-}
-#child
-{
-    background-color: brown;
-    width: 100px;
-    height: 100px;
-    
-
-}
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .box :first-child {
+      align-self: center;
+  }
+        
