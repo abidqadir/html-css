@@ -1,32 +1,21 @@
-body
-{
-    background: rgb(200, 188, 188);
-
-
+**{
+    margin: 0;
 }
-
-.daba{
+.parent
+{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.daba div
-{
-    background-color: rgb(96, 99, 78);
-    
-    height: 100px;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
     border: 2px solid black;
-    margin: 10px;
-    flex-basis: 500px;
-    
+    justify-content: center;
+    align-items: center;
 }
-
-.second
+#child
 {
-    flex-grow: 1;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    
+
 }
- .third
- {
-flex-grow: inherit;
- }
- /*
