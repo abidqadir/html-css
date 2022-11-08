@@ -1,33 +1,30 @@
-function calculator (num1 ,num2,operator)
+function marksheet (s1)
 {
 
-if (operator === "+")
+if (s1 >= 50 && s1 <=59 )
 {
- return num1+num2
- 
+    return "D Grade"
 }
 
-else if(operator === "-") 
+
+else if (s1 >= 60 && s1 <=69 )
 {
-    return num1-num2
+    return "C Grade"
 }
-
-else if(operator === "*") 
+else if (s1 >= 70 && s1 <=79)
 {
-    return num1*num2
+    return "B Grade"
+
 }
 
-else if(operator === "/") 
+else if (s1 >= 80 && s1 <=100 )
 {
-    return num1/num2
+    return "A Grade"
 }
 
 
-
-
-else {
-    return "wrong oprt"
+else{
+    return "fail"
 }
 }
-
-console.log(calculator(0,5,"-"))
+console.log(marksheet(95))
