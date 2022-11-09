@@ -1,4 +1,4 @@
-function marksheet (s1)
+/*function marksheet (s1)
 {
 
 if (s1 >= 50 && s1 <=59 )
@@ -27,4 +27,26 @@ else{
     return "fail"
 }
 }
-console.log(marksheet(95))
+console.log(marksheet(95))*/
+
+
+/*let myFriends = []
+
+function addMyFriends (friend)
+{
+    myFriends.unshift(friend)
+    console.log(myFriends)
+}
+
+addMyFriends('chitu')
+addMyFriends('bc')
+addMyFriends('harami')
+*/
+
+let arr = ['abid','hamyoon']
+arr.push('bilal')
+console.log(arr[ 0 ])
+
+
+
+
