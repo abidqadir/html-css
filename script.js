@@ -42,11 +42,38 @@ addMyFriends('chitu')
 addMyFriends('bc')
 addMyFriends('harami')
 */
-
+/*
 let arr = ['abid','hamyoon']
 arr.push('bilal')
 console.log(arr[ 0 ])
 
 
+*/
+/*
+let a = 20 ;
+let b = 30 ;
+let c = a
+a = b
+b = c
 
 
+console.log( a, b)
+
+
+
+*/
+function evennumber (numbers){
+   
+
+ for( let i = 1; i<10; i++)
+{   
+    
+    if (i % 2 !== 0)
+
+    {
+        continue
+        }
+        console.log(i)
+    }
+}
+evennumber()
